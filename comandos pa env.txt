@@ -1,0 +1,13 @@
+mkdir myproject
+cd myproject
+python3 -m venv ento
+
+.\ento\Scripts\activate
+
+pip install flask
+pip install flask-mysqldb
+pip install qrcode[pil]
+pip install pdfkit
+pip install reportlab
+pip install pillow
+pip install python-dateutil
